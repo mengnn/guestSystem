@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>嘉宾管理</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0"/>
+
+  <!-- 截图插件 -->
+  <link rel="stylesheet" href="css/layer.css"/>
+
+
+
+  <link rel="stylesheet" href="css/guestReset.css">
+  <link rel="stylesheet" href="css/guestIndex.css">
+  <link rel="stylesheet" href="css/mnn-guest.css">
+  <!-- iconfont -->
+  <link rel="stylesheet" type="text/css" href="css/iconfont.css">
+</head>
+<body style="overflow: hidden;">
+  <div id="section">
+  <!-- header -->
+    <div id="header">
+      <div class="hui"><img src="images/hui.jpg" alt=""></div>
+      <div class="logo">
+        <h1 class="f_left">
+			<a href="#" class="f_left"><img src="images/logo.png" alt=""></a>
+			<a href="#" class="chaining f_left">https://www.baidu.com/s?wd=bootsthttps://www.baidu.com/s?wd=bootstrap&rsv_spt=</a>
+		</h1>
+        <div class="f_right logo_r">
+          <ul class="logo_r_show">
+            <li class="search">
+              <p>
+                <span class="f_left">受邀者</span>
+                <input class="f_left" type="text" >
+                <i></i>
+              </p>
+            </li>
+            <li class="h_qiandao"><a href="#">微信签到</a></li>
+            <li class="prompt"><a href="#"><span>0</span></a></li>
+            <li class="help">帮助与文档</li>
+            <li class="tel">18621589099</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  <!-- content -->
+  <div id="content" class="clearfix">
+    <!-- 左边导航 -->
+    <div class="c_left">
+      <ul class="c_left_nav f_left">
+        <li class="current" title="活动"><img src="images/icon6.png" alt=""></li>
+        <li title="应用"><img src="images/icon7.png" alt=""></li>
+        <li title="联系人"><img src="images/icon8.png" alt=""></li>
+        <li title="供应商"><img src="images/icon9.png" alt=""></li>
+        <li title="账户"><img src="images/icon10.png" alt=""></li>
+      </ul>
+    </div>
+
+  <!-- 主要模块 -->
+    <div class="c_right">
+      <div class="main clearfix">
+        <!-- 活动 -->
+        <div class="activity">
+          <h3 class="con_tit">
+             <span>导出名单</span>
+             <span onclick="viewTask('light1')">+ 添加嘉宾</span>
+		      </h3>
+          <div class="guestBox clearfix">
+            <!-- 左侧 -->
+            <div class="guestLeft guestDiv">
+              <div class="guestSearch">
+                <input type="text" placeholder="请输入嘉宾姓名查询" class="guestSinput">
+                <img src="images/u1758.png" class="guestSimg">
+              </div>
+              <div class="guestListimg">
+                <img src="images/u5970.png" class="guestListimgtop1">
+                <img src="images/u5990.png" class="guestListimgtop2" style="display: none;">
+              </div>
+              <div class="guestListbox">
+                <ul class="guestList1">
+                  <li class="guestListAct" onclick="selectGuestlist1(this)">
+                    <img src="images/u5966.png" class="guestListimg1">
+                    <div class="guestListtext1">
+                      <p class="guestListtextName1">张三</p>
+                      <p class="guestListtexttitle1">南京大学软件学院副院长1</p>
+                    </div>
+                    <div class="hideHtml" style="display:none;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                  </li>
+                  <li onclick="selectGuestlist1(this)">
+                    <img src="images/u5958.png" class="guestListimg1">
+                    <div class="guestListtext1">
+                      <p class="guestListtextName1">李四</p>
+                      <p class="guestListtexttitle1">南京大学软件学院副院长2</p>
+                    </div>
+                    <div class="hideHtml" style="display:none;">清华大学博士，美国哈佛大学硕士(MLA)。曾任职于美国欧林设计事务所(OLIN)、SWA设计集团旧金山公司等，参与的主要实践项目包括美国华盛顿纪念碑安全性提升景观设计(2008年ASLA设计奖)、美国纽约市哥伦布环岛广场(2006年ASLA设计奖)等。主要研究方向为城市棕地与废弃地改造再生、风景园林规划设计、校园景观设计。有译著《棕地再生原则：废弃地的清理·设计·再利用》等。</div>
+                  </li>
+                  <li onclick="selectGuestlist1(this)">
+                    <img src="images/u5956.png" class="guestListimg1">
+                    <div class="guestListtext1">
+                      <p class="guestListtextName1">王二</p>
+                      <p class="guestListtexttitle1">南京大学软件学院副院长3</p>
+                    </div>
+                    <div class="hideHtml" style="display:none;">Dr. Pei obtained his B.S. degree from Wuhan University in and Ph.D. degree from the Institute of Process Engeering, the Chinese Academy of Sciences in 2002. Then he worked as a postdoctoral fellow in Peking university and SUNY Buffalo. In 2007, he joined the Academy for Advanced Interdisciplinary Studies, Peking University as a faculty member. His research focused on structure-based drug design and drug discovery using artificial intellectual techniques. He has published more than 50 papers in peer-eviewed journals including JACS, PNAS, NAR. and J Med. Chem.</div>
+                  </li>
+                  <li onclick="selectGuestlist1(this)">
+                    <img src="images/u5958.png" class="guestListimg1">
+                    <div class="guestListtext1">
+                      <p class="guestListtextName1">李四</p>
+                      <p class="guestListtexttitle1">南京大学软件学院副院长4</p>
+                    </div>
+                    <div class="hideHtml" style="display:none;">清华大学博士，美国哈佛大学硕士(MLA)。曾任职于美国欧林设计事务所(OLIN)、SWA设计集团旧金山公司等，参与的主要实践项目包括美国华盛顿纪念碑安全性提升景观设计(2008年ASLA设计奖)、美国纽约市哥伦布环岛广场(2006年ASLA设计奖)等。主要研究方向为城市棕地与废弃地改造再生、风景园林规划设计、校园景观设计。有译著《棕地再生原则：废弃地的清理·设计·再利用》等。
+    Dr. Pei obtained his B.S. degree from Wuhan University in and Ph.D. degree from the Institute of Process Engeering, the Chinese Academy of Sciences in 2002. Then he worked as a postdoctoral fellow in Peking university and SUNY Buffalo. In 2007, he joined the Academy for Advanced Interdisciplinary Studies, Peking University as a faculty member. His research focused on structure-based drug design and drug discovery using artificial intellectual techniques. He has published more than 50 papers in peer-eviewed journals including JACS, PNAS, NAR. and J Med. Chem.</div>
+                  </li>
+                </ul>
+                <ul class="guestList2" style="display:none;">
+                  <li class="guestListAct" onclick="selectGuestlist2(this)">
+                    <img src="images/u5966.png" class="guestListimg2">
+                    <p class="guestListtextName2">张三</p>
+                    <p class="hideIntroduceHtml" style="display:none;">南京大学软件学院副院长1</p>
+                    <div class="hideHtml" style="display:none;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                  </li>
+                  <li onclick="selectGuestlist2(this)">
+                    <img src="images/u5958.png" class="guestListimg2">
+                    <p class="guestListtextName2">李四</p>
+                    <p class="hideIntroduceHtml" style="display:none;">南京大学软件学院副院长2</p>
+                    <div class="hideHtml" style="display:none;">清华大学博士，美国哈佛大学硕士(MLA)。曾任职于美国欧林设计事务所(OLIN)、SWA设计集团旧金山公司等，参与的主要实践项目包括美国华盛顿纪念碑安全性提升景观设计(2008年ASLA设计奖)、美国纽约市哥伦布环岛广场(2006年ASLA设计奖)等。主要研究方向为城市棕地与废弃地改造再生、风景园林规划设计、校园景观设计。有译著《棕地再生原则：废弃地的清理·设计·再利用》等。</div>
+                  </li>
+                  <li onclick="selectGuestlist2(this)">
+                    <img src="images/u5956.png" class="guestListimg2">
+                    <p class="guestListtextName2">王二</p>
+                    <p class="hideIntroduceHtml" style="display:none;">南京大学软件学院副院长3</p>
+                    <div class="hideHtml" style="display:none;">Dr. Pei obtained his B.S. degree from Wuhan University in and Ph.D. degree from the Institute of Process Engeering, the Chinese Academy of Sciences in 2002. Then he worked as a postdoctoral fellow in Peking university and SUNY Buffalo. In 2007, he joined the Academy for Advanced Interdisciplinary Studies, Peking University as a faculty member. His research focused on structure-based drug design and drug discovery using artificial intellectual techniques. He has published more than 50 papers in peer-eviewed journals including JACS, PNAS, NAR. and J Med. Chem.</div>
+                  </li>
+                  <li onclick="selectGuestlist2(this)">
+                    <img src="images/u5966.png" class="guestListimg2">
+                    <p class="guestListtextName2">麻子</p>
+                    <p class="hideIntroduceHtml" style="display:none;">南京大学软件学院副院长4</p>
+                    <div class="hideHtml" style="display:none;">清华大学博士，美国哈佛大学硕士(MLA)。曾任职于美国欧林设计事务所(OLIN)、SWA设计集团旧金山公司等，参与的主要实践项目包括美国华盛顿纪念碑安全性提升景观设计(2008年ASLA设计奖)、美国纽约市哥伦布环岛广场(2006年ASLA设计奖)等。主要研究方向为城市棕地与废弃地改造再生、风景园林规划设计、校园景观设计。有译著《棕地再生原则：废弃地的清理·设计·再利用》等。
+    Dr. Pei obtained his B.S. degree from Wuhan University in and Ph.D. degree from the Institute of Process Engeering, the Chinese Academy of Sciences in 2002. Then he worked as a postdoctoral fellow in Peking university and SUNY Buffalo. In 2007, he joined the Academy for Advanced Interdisciplinary Studies, Peking University as a faculty member. His research focused on structure-based drug design and drug discovery using artificial intellectual techniques. He has published more than 50 papers in peer-eviewed journals including JACS, PNAS, NAR. and J Med. Chem.</div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- 中间内容 -->
+            <div class="guestMiddle guestDiv">
+              <div class="guestMiddlebox">
+                <!--嘉宾头像 -->
+                <div class="guestMiddletop">
+                  <img src="images/u5966.png" class="guestMiddleimg">
+                  <div class="guestMiddletitle">
+                    <p class="guestMiddletitle1">张三</p>
+                    <p class="guestMiddletitle2">南京大学软件学院副院长</p>
+                  </div>
+                </div>
+                <!-- 嘉宾简介 -->
+                <div class="guestMintroduce">
+                  <div class="guestMintroducetitle">嘉宾介绍</div>
+                  <div class="guestMintroducetext">&nbsp;&nbsp;&nbsp;&nbsp;清华大学博士，美国哈佛大学硕士(MLA)。曾任职于美国欧林设计事务所(OLIN)、SWA设计集团旧金山公司等，参与的主要实践项目包括美国华盛顿纪念碑安全性提升景观设计(2008年ASLA设计奖)、美国纽约市哥伦布环岛广场(2006年ASLA设计奖)等。主要研究方向为城市棕地与废弃地改造再生、风景园林规划设计、校园景观设计。有译著《棕地再生原则：废弃地的清理·设计·再利用》等。<br>&nbsp;&nbsp;&nbsp;&nbsp;Dr. Pei obtained his B.S. degree from Wuhan University in and Ph.D. degree from the Institute of Process Engeering, the Chinese Academy of Sciences in 2002. Then he worked as a postdoctoral fellow in Peking university and SUNY Buffalo. In 2007, he joined the Academy for Advanced Interdisciplinary Studies, Peking University as a faculty member. His research focused on structure-based drug design and drug discovery using artificial intellectual techniques. He has published more than 50 papers in peer-eviewed journals including JACS, PNAS, NAR. and J Med. Chem.</div>
+                </div>
+                <!-- 嘉宾日程 -->
+                <div class="guestMschedule">
+                  <div class="guestMscheduletitle">嘉宾日程</div>
+                  <div class="guestMscheduletext">
+                    <div class="guestMschedulebox">
+                      <p class="guestMscheduleDay">
+                        <img src="images/u1789.png">
+                        <span>2018-9-27</span>
+                      </p>
+                      <b class="guestMscheduleB">全球化战略转型实践与探索</b>
+                      <p class="guestMscheduleTime">
+                        <img src="images/u1815.png">
+                        <span>8:30-9:30</span>
+                      </p>
+                      <p class="guestMschedulePlace">
+                        <img src="images/u1817.png">
+                        <span>101会议室</span>
+                      </p>
+                    </div>
+                    <div class="guestMschedulebox">
+                      <p class="guestMscheduleDay">
+                        <img src="images/u1789.png">
+                        <!-- <span>2018-9-27</span> -->
+                      </p>
+                      <b class="guestMscheduleB">精益制造理念与实践</b>
+                      <p class="guestMscheduleTime">
+                        <img src="images/u1815.png">
+                        <span>9:30-10:30</span>
+                      </p>
+                      <p class="guestMschedulePlace">
+                        <img src="images/u1817.png">
+                        <span>101会议室</span>
+                      </p>
+                    </div>
+                    <div class="guestMschedulebox">
+                      <p class="guestMscheduleDay">
+                        <img src="images/u1789.png">
+                        <span>2018-9-28</span>
+                      </p>
+                      <b class="guestMscheduleB">玉米收获机割台仿生降损技术研究</b>
+                      <p class="guestMscheduleTime">
+                        <img src="images/u1815.png">
+                        <span>8:30-9:30</span>
+                      </p>
+                      <p class="guestMschedulePlace">
+                        <img src="images/u1817.png">
+                        <span>201会议室</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 右侧内容 -->
+            <div class="guestRight guestDiv">
+              <!-- 选项卡 -->
+              <div class="guestRighttitle">
+                <span class="current" style="">个人信息</span>
+                <span class="">嘉宾日程</span>
+              </div>
+              <!-- 设置内容 -->
+              <div class="guestRightbox">
+                <!-- 个人信息设置 -->
+                <div class="guestRightperson guestRightpd">
+                  <!-- 编辑按钮 -->
+                  <div class="guestRightPeditContent">
+                     <img src="images/u5847.png" class="editImg">
+                     <img src="images/u5849.png" class="editDelete" onclick="viewTask('light2')">
+                     <img src="images/u5866.png" class="editSave">
+                  </div>
+                  <div class="guestRightPshow">
+                    <p class="guestRightPshowname">
+                      <b>姓名：</b>
+                      <span>张三</span>
+                    </p>
+                    <p class="guestRightPshowintroduce">
+                      <b>嘉宾简介：</b>
+                      <span>南京大学软件学院副院长</span>
+                    </p>
+                    <div class="guestRightPshowtext">
+                      <b>详细介绍：</b>
+                      <div class="guestRightPshowtextdiv">&nbsp;&nbsp;&nbsp;&nbsp;南京大学软件学院副院长    清华大学博士，美国哈佛大学硕士(MLA)。曾任职于美国欧林设计事务所(OLIN)、SWA设计集团旧金山公司等，参与的主要实践项目包括美国华盛顿纪念碑安全性提升景观设计(2008年ASLA设计奖)、美国纽约市哥伦布环岛广场(2006年ASLA设计奖)等。主要研究方向为城市棕地与废弃地改造再生、风景园林规划设计、校园景观设计。有译著《棕地再生原则：废弃地的清理·设计·再利用》等。<br>
+                      &nbsp;&nbsp;&nbsp;&nbsp;Dr. Pei obtained his B.S. degree from Wuhan University in and Ph.D. degree from the Institute of Process Engeering, the Chinese Academy of Sciences in 2002. Then he worked as a postdoctoral fellow in Peking university and SUNY Buffalo. In 2007, he joined the Academy for Advanced Interdisciplinary Studies, Peking University as a faculty member. His research focused on structure-based drug design and drug discovery using artificial intellectual techniques. He has published more than 50 papers in peer-eviewed journals including JACS, PNAS, NAR. and J Med. Chem.</div>
+                    </div>
+                    <div class="guestRightPshowimg">
+                      <b style="display:block;">照片：</b>
+                      <img src="images/u5853.png" class="guestRightPimg">
+                    </div>
+                  </div>
+                  <div class="guestRightPedit" style="display:none;">
+                    <p class="guestRightPeditname">
+                      <b>姓名：</b>
+                      <input type="text"  class="guestRightPeditnameinput">
+                    </p>
+                    <p class="guestRightPeditintroduce">
+                      <b>嘉宾简介：</b>
+                      <input type="text"  class="guestRightPeditintroduceinput">
+                    </p>
+                    <p class="guestRightPedittext">
+                      <b>详细介绍：</b>
+                      <textarea class="guestRightPeditintroducetextarea">南京大学软件学院副院长    清华大学博士，美国哈佛大学硕士(MLA)。曾任职于美国欧林设计事务所(OLIN)、SWA设计集团旧金山公司等，参与的主要实践项目包括美国华盛顿纪念碑安全性提升景观设计(2008年ASLA设计奖)、美国纽约市哥伦布环岛广场(2006年ASLA设计奖)等。主要研究方向为城市棕地与废弃地改造再生、风景园林规划设计、校园景观设计。有译著《棕地再生原则：废弃地的清理·设计·再利用》等。Dr. Pei obtained his B.S. degree from Wuhan University in and Ph.D. degree from the Institute of Process Engeering, the Chinese Academy of Sciences in 2002. Then he worked as a postdoctoral fellow in Peking university and SUNY Buffalo. In 2007, he joined the Academy for Advanced Interdisciplinary Studies, Peking University as a faculty member. His research focused on structure-based drug design and drug discovery using artificial intellectual techniques. He has published more than 50 papers in peer-eviewed journals including JACS, PNAS, NAR. and J Med. Chem.</textarea>
+                    </p>
+                    <div class="guestRightPeditimg">
+                      <b>照片：</b>
+                      <div class="guestRightPeditimgbox">
+                        <div  class="guestRightPeditchangebox">
+                          <img src="images/u5853.png" class="guestRightPeditchange">
+                          <img src="images/u36.png" class="guestRightPeditimgdelete">
+                        </div>
+                        <div class="guestRightPeditimgchange" style="display:none;"  onclick="cutImg('null', 1,'')">
+                          <img src="images/u32.png">
+                          <span>上传照片</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- 嘉宾日程设置 -->
+                <div class="guestRightdate guestRightpd" style="display:none;">
+                  <div class="guestRightDbox">
+                    <div class="guestRightDtop">10月24日</div>
+                    <table class="guestRightDtable">
+                      <tr>
+                        <td>8:30-9:30</td>
+                        <td>分会场一</td>
+                        <td>圆桌论坛：高校新工科建设方向——校企合作探索与实践</td>
+                      </tr>
+                      <tr>
+                        <td>10:30-11:30</td>
+                        <td>分会场二</td>
+                        <td>圆桌论坛：高校新工科建设方向——校企合作探索与实践</td>
+                      </tr>
+                    </table>
+                  </div>
+                  <div class="guestRightDbox">
+                    <div class="guestRightDtop">10月25日</div>
+                    <table class="guestRightDtable">
+                      <tr>
+                        <td>8:30-9:30</td>
+                        <td>分会场一</td>
+                        <td>圆桌论坛：高校新工科建设方向——校企合作探索与实践</td>
+                      </tr>
+                      <tr>
+                        <td>10:30-11:30</td>
+                        <td>分会场二</td>
+                        <td>圆桌论坛：高校新工科建设方向——校企合作探索与实践</td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+<!-- 弹窗背景 -->
+<div id="fade" class="black_overlay" style="display:none;"></div>
+<!-- 删除弹窗 -->
+<div id="light2" class="white_content" style="display:none;">
+    <div class="title-one">
+        <span>确认</span>
+        <div class="f_right pop_xx" onclick="cancel('light2');"></div>
+    </div>
+    <div class="title-two">
+    	<img src="images/u73.png">
+    	<p> 确认删除嘉宾吗？</p>
+    </div>
+    <div class="title-three">
+    	<button class="pop_btn1 current" onclick="deleteGuestsure()">确认</button>
+    	<button class="pop_btn2" onclick="cancel('light2');">取消</button>
+    </div>
+</div>
+<!-- 添加嘉宾 -->
+<div id="light1" class="white_content2" style="display:none;height: 590px;">
+    <div class="title-one">
+        <span>添加嘉宾</span>
+        <div class="f_right pop_xx" onclick="cancel('light1');"></div>
+    </div>
+    <div class="title-two" style="height: 440px;">
+    	<div class="titleTwobox">
+         <span><b>*</b> 姓名</span>
+         <input type="text"  class="titleTwoname">
+         <a href="#" class="selectGuestLabrary">从嘉宾库中选择</a>
+      </div>
+      <div class="titleTwobox">
+         <span>嘉宾简介</span>
+         <input type="text"  class="titleTwointroduce">
+      </div>
+      <div class="titleTwobox">
+         <span>嘉宾介绍</span>
+         <textarea class="titleTwointroducetext"></textarea>
+      </div>
+      <div class="titleTwobox">
+         <span>照片</span>
+         <!-- 上传 -->
+         <div class="moudleImgchange" onclick="cutImg('null', 1,'')">
+            <img src="images/u32.png">
+            <span>上传照片</span>
+         </div>
+         <!-- 回显 -->
+         <div class="moudleImgshow" style="display:none;">
+            <img src="images/defaultImg.png" class="moudleImgshowchange">
+            <img src="images/u36.png" class="moudleImgshowdelete">
+          </div>
+      </div>
+    </div>
+    <div class="lightTable" style="height: 440px;display: none;">
+      <div class="lightTablesearch">
+        搜索条件：<input type="text"  class="lightSearchinput" placeholder="请输入演讲嘉宾姓名搜索">
+        <span class="lightSearchimg">搜索</span>
+      </div>
+      <div class="lightTablebox">
+        <table class="lightTablemain">
+          <thead>
+            <tr>
+              <th></th>
+              <th>姓名</th>
+              <th>嘉宾简介</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <input type="radio" name="guestRadio" onclick="radioSelectguest(this)">
+              </td>
+              <td class="lirbraryName">张三</td>
+              <td class="lirbraryIntroduce">东南大学计算机科学和工程学院院长1</td>
+            </tr>
+            <tr>
+              <td>
+                <input type="radio" name="guestRadio" onclick="radioSelectguest(this)">
+              </td>
+              <td class="lirbraryName">李四</td>
+              <td class="lirbraryIntroduce">东南大学计算机科学和工程学院院长2</td>
+            </tr>
+            <tr>
+              <td>
+                <input type="radio" name="guestRadio" onclick="radioSelectguest(this)">
+              </td>
+              <td class="lirbraryName">王二</td>
+              <td class="lirbraryIntroduce">东南大学计算机科学和工程学院院长3</td>
+            </tr>
+            <tr>
+              <td>
+                <input type="radio" name="guestRadio" onclick="radioSelectguest(this)">
+              </td>
+              <td class="lirbraryName">麻子</td>
+              <td class="lirbraryIntroduce">东南大学计算机科学和工程学院院长4</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="title-three">
+    	<button class="pop_btn1 current" onclick="addGuestsure()">确定</button>
+    	<button class="pop_btn2"  onclick="cancel('light1');">取消</button>
+    </div>
+    <div class="title-threeRadio" style="display: none;">
+      <button class="pop_btn1 current" onclick="guestLibrarysure()">确定</button>
+      <button class="pop_btn2" onclick="guestLibrarycancel()">取消</button>
+    </div>
+</div>
+
+<script>
+
+ </script>
+
+<!-- 截图插件 -->
+<script src="js/jquery-1.7.2.min.js"></script>
+<script src="js/layer.js"></script>
+
+<script src="js/guestIndex.js"></script>
+<script type="text/javascript" src="js/mnn-guest.js"></script>
+<script>
+// 裁图设置
+function cutImg(s, t,arr){// s = 设置当前图片选择器
+  var selector = encodeURIComponent(s);
+  var a = encodeURIComponent(arr);
+  layer.open({
+    title: '裁剪图片',
+    type: 2,
+    area: ['90%', '600px'],
+    fixed: false, //不固定
+    maxmin: true,
+    content: 'cutImg.html?1s='+ selector + '&t='+t + '&arr='+a
+  });
+  $(".layui-layer-content").find("iframe").css("transform", "scale(1)");
+  $(".layui-layer").css("width", "80%");
+  $(".layui-layer").css("height", "60%");
+  $(".layui-layer").css("left", "10%");
+  $(".layui-layer").css("top", "10%");
+}
+
+</script>
+</body>
+</html>
